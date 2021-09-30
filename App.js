@@ -134,26 +134,6 @@ export default function App() {
 
 
 
-
-
-const createAlertErro = (nota) =>
-  Alert.alert(
-    "Erro",
-    "Preencha a " + nota,
-    [
-      { text: "Ok, voltar" }
-    ]
-  );
-
-const createAlertSuccess = (nota, conceito) =>
-  Alert.alert(
-    "Média calculada!",
-    "Média: " + nota + " - Conceito:" + conceito,
-    [
-      { text: "Ok, voltar" }
-    ]
-  );
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
